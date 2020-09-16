@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(EJERCIO2)
+
+set(PDCURSESDIR "C:/Lib/PDCurses")
+
+include_directories("${PDCURSESDIR}")
+
+add_executable(ejercio2 "main.cpp")
+
+target_link_libraries(ejercio2 "${PDCURSESDIR}/pdcurses.a")
