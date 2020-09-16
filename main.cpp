@@ -8,6 +8,13 @@ int main () {
  printw("Te llamas: %s\n",cadena);
  refresh();
  getch();
+ printw("Escribe la contraseña: ");
+ noecho();
+ scanw("%s",cadena);
+ echo(); 
+ printw("La contraseña es: %s\n",cadena); 
+ refresh();
+ getch();
  endwin();
  return(0);
 }
