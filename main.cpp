@@ -3,11 +3,7 @@
 int main () {
  char cadena[128];
  initscr();
- printw("Dime tu nombre\n");
- scanw("%s",cadena);
- printw("Te llamas: %s\n",cadena);
- refresh();
- getch();
+ move (10,2); 
  printw("Escribe la contraseña: ");
  noecho();
  scanw("%s",cadena);
