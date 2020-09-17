@@ -14,3 +14,11 @@ target_link_libraries(ejercio2 "${PDCURSESLIB}")
 add_executable(ejercio3 ejercio3.cpp)
 
 target_link_libraries(ejercio3 "${PDCURSESLIB}")
+
+add_executable(ejercio4 ejercio4.cpp)
+
+target_link_libraries(ejercio4 "${PDCURSESLIB}")
+
+add_executable(ejercio5 ejercio5.cpp)
+
+target_link_libraries(ejercio5 "${PDCURSESLIB}")
